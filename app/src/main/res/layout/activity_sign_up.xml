@@ -1,10 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".SignUpActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <ImageView
+      android:id="@+id/logo2"
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:layout_margin="20dp"
+      android:src="@tools:sample/avatars"
+      tools:srcCompat="@drawable/login" />
+
+  <EditText
+      android:id="@+id/name_box"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/edittext_design"
+      android:drawableLeft="@drawable/username"
+      android:drawablePadding="10dp"
+      android:drawableTint="@color/blue"
+      android:ems="10"
+      android:hint="Enter Your Name"
+      android:inputType="text"
+      android:padding="10dp"
+      android:textColor="#0C0C0C" />
+
+  <EditText
+      android:id="@+id/username_box"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/edittext_design"
+      android:drawableLeft="@drawable/user"
+      android:drawablePadding="10dp"
+      android:drawableTint="@color/blue"
+      android:ems="10"
+      android:hint="Enter Your Username"
+      android:inputType="text"
+      android:padding="10dp"
+      android:textColor="#0C0C0C" />
+
+  <EditText
+      android:id="@+id/email_box4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/edittext_design"
+      android:drawableLeft="@drawable/envelope"
+      android:drawablePadding="10dp"
+      android:drawableTint="@color/blue"
+      android:ems="10"
+      android:hint="Enter Your Email"
+      android:inputType="text"
+      android:padding="10dp"
+      android:textColor="#0C0C0C" />
+
+  <EditText
+      android:id="@+id/pass_box2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/edittext_design"
+      android:drawableLeft="@drawable/lock"
+      android:drawablePadding="10dp"
+      android:drawableTint="@color/blue"
+      android:ems="10"
+      android:hint="Enter Your Password"
+      android:inputType="text"
+      android:padding="10dp"
+      android:textColor="#0C0C0C" />
+
+  <CheckBox
+      android:id="@+id/checkBox2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:shadowColor="#C3BEBE"
+      android:text="Remember Me"
+      android:textColor="#000000" />
+
+  <Button
+      android:id="@+id/login_btn2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/btn_style"
+      android:backgroundTint="@color/blac"
+      android:foregroundGravity="center"
+      android:paddingLeft="40dp"
+      android:paddingRight="40dp"
+      android:text="Sign Up"
+      android:textColor="#000000" />
+</LinearLayout>
