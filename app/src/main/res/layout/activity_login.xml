@@ -7,7 +7,7 @@
     android:background="@drawable/gradient"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/logo"
@@ -84,5 +84,13 @@
         android:paddingRight="40dp"
         android:text="Login"
         android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/signup_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Don't Have an Account? Sign Up" />
 
 </LinearLayout>
